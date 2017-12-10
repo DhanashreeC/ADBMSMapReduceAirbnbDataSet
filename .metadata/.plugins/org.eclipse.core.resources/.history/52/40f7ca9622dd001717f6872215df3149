@@ -1,0 +1,23 @@
+package tophosts;
+
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+
+public class Driver {
+
+	public static void main(String[] args) throws Exception {
+		
+		if (args.length != 3) {
+			System.err.println("Usage: TopHostWithMostListings <input path> <internediate> <output path>");
+			System.exit(-1);
+		}
+
+		Path inputPath = new Path(args[0]);
+		Path output_intermediate = new Path(args[1]);
+		Path output_dir = new Path(args[2]);
+
+		
+		
+	}
+
+}

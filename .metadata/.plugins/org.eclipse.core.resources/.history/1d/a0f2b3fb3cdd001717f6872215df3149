@@ -1,0 +1,58 @@
+package tophosts;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.WritableComparable;
+
+public class TopHostCustomWritable implements Writable, WritableComparable<TopHostCustomWritable>{
+	private String hostId;
+	private int listingCount;
+	
+	public TopHostCustomWritable() {
+		
+	}
+
+	public TopHostCustomWritable(String m, int l) {
+		this.hostId = m;
+		this.listingCount = l;
+	}
+
+
+	public String getHostId() {
+		return hostId;
+	}
+
+	public void setHostId(String hostId) {
+		this.hostId = hostId;
+	}
+
+	public int getListingCount() {
+		return listingCount;
+	}
+
+	public void setListingCount(int listingCount) {
+		this.listingCount = listingCount;
+	}
+
+	public void write(DataOutput d) throws IOException {
+		d.writeUTF(hostId);
+		d.writeInt(listingCount);
+	}
+
+	public void readFields(DataInput di) throws IOException {
+		hostId = di.readLine();
+		listingCount = di.readInt();
+	}
+	
+	public int compareTo(TopHostCustomWritable o) {
+		return -1 * (Integer.compare(listingCount, o.listingCount));
+	}
+
+	@Override
+	public String toString() {
+		return hostId + "\t" + listingCount;
+	}
+
+}

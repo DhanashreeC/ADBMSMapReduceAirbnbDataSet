@@ -1,0 +1,91 @@
+package org.adbms.finalproject.listingperpropertytype;
+
+import org.adbm.finalproject.listingsperroomtype.RoomTypeMapper;
+import org.adbm.finalproject.listingsperroomtype.RoomTypeReducer;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
+public class Driver {
+	public static void main(String[] args) throws Exception {
+		Configuration conf = new Configuration();
+		if (args.length != 2) {
+			System.err.println("Usage: Group by Property Type <input> <output>");
+			System.exit(2);
+		}
+
+		Path inputPath = new Path(args[0]);
+		Path intermediate = new Path(args[1]);
+
+		Job job = new Job(conf, "GroupByPropertyType");
+		job.setJarByClass(PartitionPatternMapper.class);
+
+		job.setMapperClass(PartitionPatternMapper.class);
+		job.setPartitionerClass(GroupbyPropertyTypePartitioner.class);
+		GroupbyPropertyTypePartitioner.setPropertyType(job, 1);
+		job.setReducerClass(PartitionPatternReducer.class);
+		job.setNumReduceTasks(17);
+
+		job.setMapOutputKeyClass(IntWritable.class);
+		job.setMapOutputValueClass(Text.class);
+
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(NullWritable.class);
+		// Input
+		FileInputFormat.addInputPath(job, inputPath);
+		job.setInputFormatClass(TextInputFormat.class);
+
+		// Output
+		FileOutputFormat.setOutputPath(job, intermediate);
+
+		// Delete output if exists
+		FileSystem hdfs = FileSystem.get(conf);
+		if (hdfs.exists(intermediate))
+			hdfs.delete(intermediate, true);
+
+		// Execute job
+		boolean complete = job.waitForCompletion(true);
+		
+		Configuration conf2 = new Configuration(true);
+		Job job2 = new Job(conf, "SecondarySort");
+		
+		if (complete) {
+			job.setJarByClass(RoomTypeMapper.class);
+
+			// Setup MapReduce
+			job.setMapperClass(RoomTypeMapper.class);
+			job.setReducerClass(RoomTypeReducer.class);
+			job.setNumReduceTasks(1);
+
+			// Specify key / value
+
+			job.setMapOutputKeyClass(Text.class);
+			job.setMapOutputValueClass(IntWritable.class);
+
+			job.setOutputKeyClass(Text.class);
+			job.setOutputValueClass(IntWritable.class);
+			// Input
+			FileInputFormat.addInputPath(job, inputPath);
+			job.setInputFormatClass(TextInputFormat.class);
+
+			// Output
+			FileOutputFormat.setOutputPath(job, intermediate);
+
+			// Delete output if exists
+			if (hdfs.exists(intermediate))
+				hdfs.delete(intermediate, true);
+
+			// Execute job
+			int code = job.waitForCompletion(true) ? 0 : 1;
+			System.exit(code);
+
+		}
+	}
+}

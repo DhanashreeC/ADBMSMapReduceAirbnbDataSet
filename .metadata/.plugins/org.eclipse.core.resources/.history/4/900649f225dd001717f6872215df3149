@@ -1,0 +1,22 @@
+package tophosts;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class TophostWithMostListingsReducer1 extends Reducer<LongWritable, LongWritable, LongWritable, LongWritable> {
+
+	private LongWritable total = new LongWritable();
+
+	public void reduce(LongWritable key, Iterable<LongWritable> values, Context context)
+			throws IOException, InterruptedException {
+		Long sum = 0L;
+		for (LongWritable val : values) {
+			sum += val.get();
+		}
+		total.set(sum);
+		context.write(key, total);
+	}
+
+}

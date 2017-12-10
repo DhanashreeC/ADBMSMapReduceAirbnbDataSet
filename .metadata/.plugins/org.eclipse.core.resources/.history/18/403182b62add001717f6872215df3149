@@ -1,0 +1,23 @@
+package tophosts;
+
+import java.io.IOException;
+import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class TophostWithMostListingsMapper1 extends Mapper<LongWritable, Text, FloatWritable, LongWritable> {
+
+	@Override
+	protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
+		FloatWritable hostId = new FloatWritable();
+		LongWritable listingCount = new LongWritable(1);
+		String fields[] = value.toString().split(",");
+
+		if (!fields[19].equals("host_id")) {
+			hostId.set(Float.parseFloat(fields[1]));
+			context.write(hostId, listingCount);
+		}
+
+	}
+}

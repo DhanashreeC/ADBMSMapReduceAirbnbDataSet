@@ -1,0 +1,46 @@
+package org.adbms.finalproject.cancellationpolicybinning;
+import java.io.IOException;
+
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs;
+
+public class BinningMapper extends Mapper<Object, Text, Text, NullWritable> {
+	private MultipleOutputs<Text, NullWritable> mos = null;
+
+	protected void setup(Context context) {
+		// Create a new MultipleOutputs using the context object
+		mos = new MultipleOutputs(context);
+	}
+
+	public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+		String[] row = value.toString().split(",");
+		Text listinId = new Text(row[0]);
+		if(listinId.toString().equals("id")) {
+			return;
+		}
+
+		httpRequest = httpRequest.substring(1);
+		if (httpRequest.equalsIgnoreCase("GET")) {
+			mos.write("bins", value, NullWritable.get(), "GET");
+		}
+		if (httpRequest.equalsIgnoreCase("POST")) {
+			mos.write("bins", value, NullWritable.get(), "POST");
+		}
+		if (httpRequest.equalsIgnoreCase("HEAD")) {
+			mos.write("bins", value, NullWritable.get(), "HEAD");
+		}
+		if (httpRequest.equalsIgnoreCase("PUT")) {
+			mos.write("bins", value, NullWritable.get(), "PUT");
+		}
+		if (httpRequest.equalsIgnoreCase("DELETE")) {
+			mos.write("bins", value, NullWritable.get(), "DELETE");
+		}
+
+	}
+
+	protected void cleanup(Context context) throws IOException, InterruptedException {
+		mos.close();
+	}
+}

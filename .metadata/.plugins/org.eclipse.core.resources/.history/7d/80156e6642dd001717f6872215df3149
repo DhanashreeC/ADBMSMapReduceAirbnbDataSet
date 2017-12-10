@@ -1,0 +1,27 @@
+package tophosts;
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class TophostWithMostListingsReducer2
+		extends Reducer<IntWritable, Text, Text, IntWritable> {
+
+	public static int count = 1;
+
+	@Override
+	protected void reduce(IntWritable key, Iterable<Text> values, Context context)
+			throws IOException, InterruptedException {
+		for (Text value : values) {
+
+			if (count < 26) {
+				context.write(value, key);
+				count++;
+			} else {
+				break;
+			}
+		}
+	}
+
+}

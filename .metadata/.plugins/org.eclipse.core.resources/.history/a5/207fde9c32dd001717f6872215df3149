@@ -1,0 +1,36 @@
+package org.adbms.project.topten;
+
+import java.io.IOException;
+import java.util.Map;
+import java.util.TreeMap;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class TopTenMapper extends Mapper<LongWritable, Text, IntWritable, Text> {
+
+	private TreeMap<Integer, Text> repToRecordMap = new TreeMap<Integer, Text>();
+
+	public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
+		
+		String fields[] = value.toString().split(",");
+		
+		String hostID = fields[1];
+		int listingcount = Integer.parseInt(fields[3]);
+
+		// Get will return null if the key is not there
+		if (userId == null || reputation == null) {
+			// skip this record
+			return;
+		}
+
+		repToRecordMap.put(Integer.parseInt(reputation), new Text(value));
+
+		if (repToRecordMap.size() > 10) {
+			repToRecordMap.remove(repToRecordMap.firstKey());
+		}
+	}
+
+}

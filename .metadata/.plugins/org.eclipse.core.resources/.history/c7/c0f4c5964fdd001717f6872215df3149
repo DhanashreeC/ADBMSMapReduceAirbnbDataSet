@@ -1,0 +1,22 @@
+package org.adbms.finalproject.listingperpropertytype;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class PartitionPatternMapper extends Mapper<Object, Text, IntWritable, Text>{
+	private IntWritable outkey = new IntWritable();
+	
+	public void map(Object key, Text value, Context context
+		    ) throws IOException, InterruptedException {
+		String[] row = value.toString().split(",");
+		
+		String propertyType = row[1];
+		
+		if(!propertyType.equals("property_type")) {
+			
+		}
+	}
+}

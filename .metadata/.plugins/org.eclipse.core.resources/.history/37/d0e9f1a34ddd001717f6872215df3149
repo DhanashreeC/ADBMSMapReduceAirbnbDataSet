@@ -1,0 +1,25 @@
+package org.adbms.finalproject.listingperpropertytype;
+
+public class GroupbyPropertyTypePartitioner extends Partitioner<IntWritable, Text> implements Configurable {
+
+	private static final String MIN_LAST_ACCESS_DATE_YEAR = "min.last.access.date.month";
+	private Configuration conf = null;
+	private int minLastAccessDateYear = 0;
+
+	public int getPartition(IntWritable key, Text value, int numPartitions) {
+		return key.get() - minLastAccessDateYear;
+	}
+
+	public Configuration getConf() {
+		return conf;
+	}
+
+	public void setConf(Configuration conf) {
+		this.conf = conf;
+		minLastAccessDateYear = conf.getInt(MIN_LAST_ACCESS_DATE_YEAR, 0);
+	}
+
+	public static void setMinLastAccessDate(Job job, int month) {
+		job.getConfiguration().setInt(MIN_LAST_ACCESS_DATE_YEAR, month);
+	}
+}
