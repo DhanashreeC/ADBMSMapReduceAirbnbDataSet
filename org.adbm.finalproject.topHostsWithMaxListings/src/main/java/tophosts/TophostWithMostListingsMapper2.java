@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
@@ -19,7 +20,6 @@ public class TophostWithMostListingsMapper2 extends Mapper<LongWritable, Text, T
 				listingCount.set(Float.parseFloat(fields[1]));
 				
 				TopHostCustomWritable data = new TopHostCustomWritable(hostId.toString(), listingCount.get());
-				
 				context.write(data, new IntWritable(1));
 			} catch (Exception ex) {
 				ex.printStackTrace();

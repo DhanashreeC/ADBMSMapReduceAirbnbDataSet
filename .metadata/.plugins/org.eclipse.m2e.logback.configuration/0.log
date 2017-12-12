@@ -1645,3 +1645,189 @@ org.eclipse.core.runtime.CoreException: Launch configuration New_configuration r
 2017-12-10 22:17:47,326 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-12-10 22:17:47,327 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-10 22:17:47,328 [Worker-340] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:31:40,065 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-12-12 02:32:03,046 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dhanashree.distinctpattern:assgn4_part5_distinctpattern:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/assgn4_part5_distinctpattern/pom.xml.
+2017-12-12 02:32:10,740 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:10,809 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:10,879 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:10,879 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/assgn4_part5_distinctpattern/src/test/resources
+2017-12-12 02:32:15,529 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbm.finalproject.sentimentanalysis:org.adbm.finalproject.sentimentanalysis:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/pom.xml.
+2017-12-12 02:32:15,571 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dhanashree.distinctpattern:assgn4_part5_distinctpattern:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/assgn4_part5_distinctpattern/pom.xml.
+2017-12-12 02:32:20,028 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:20,028 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:20,101 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:20,101 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 02:32:20,523 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbm.finalproject.topk:org.adbm.finalproject.topk:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/pom.xml.
+2017-12-12 02:32:23,028 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:23,044 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:23,052 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:23,052 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:32:23,284 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.averagepriceperneighborhood:org.adbms.finalproject.averagepriceperneighborhood:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.averagepriceperneighborhood/pom.xml.
+2017-12-12 02:32:25,529 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:25,530 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:25,531 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:25,531 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.averagepriceperneighborhood/src/test/resources
+2017-12-12 02:32:26,005 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.cancellationpolicybinning:org.adbms.finalproject.cancellationpolicybinning:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.cancellationpolicybinning/pom.xml.
+2017-12-12 02:32:29,289 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:29,308 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:29,310 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:29,310 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.cancellationpolicybinning/src/test/resources
+2017-12-12 02:32:30,965 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.joinpattern:org.adbms.finalproject.joinpattern:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.joinpattern/pom.xml.
+2017-12-12 02:32:35,029 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:35,037 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:35,065 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:35,066 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.joinpattern/src/test/resources
+2017-12-12 02:32:35,488 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.listingandreviewshierarchy:org.adbms.finalproject.listingandreviewshierarchy:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingandreviewshierarchy/pom.xml.
+2017-12-12 02:32:40,201 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:40,201 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:40,211 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:40,211 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingandreviewshierarchy/src/test/resources
+2017-12-12 02:32:40,522 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.listingperpropertytype:org.adbms.finalproject.listingperpropertytype:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingperpropertytype/pom.xml.
+2017-12-12 02:32:46,475 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:46,476 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:46,525 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:46,534 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingperpropertytype/src/test/resources
+2017-12-12 02:32:47,227 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.topthirtylistingswithmaxavailability:org.adbms.finalproject.topthirtylistingswithmaxavailability:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.topthirtylistingswithmaxavailability/pom.xml.
+2017-12-12 02:32:52,449 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:52,466 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 02:32:52,467 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:32:52,509 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.topthirtylistingswithmaxavailability/src/test/resources
+2017-12-12 02:32:56,182 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.dhanashree.distinctpattern:assgn4_part5_distinctpattern:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/assgn4_part5_distinctpattern/pom.xml.
+2017-12-12 02:32:59,368 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbm.finalproject.sentimentanalysis:org.adbm.finalproject.sentimentanalysis:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/pom.xml.
+2017-12-12 02:32:59,722 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbm.finalproject.topk:org.adbm.finalproject.topk:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/pom.xml.
+2017-12-12 02:33:00,900 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.averagepriceperneighborhood:org.adbms.finalproject.averagepriceperneighborhood:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.averagepriceperneighborhood/pom.xml.
+2017-12-12 02:33:01,267 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.cancellationpolicybinning:org.adbms.finalproject.cancellationpolicybinning:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.cancellationpolicybinning/pom.xml.
+2017-12-12 02:33:01,568 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.joinpattern:org.adbms.finalproject.joinpattern:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.joinpattern/pom.xml.
+2017-12-12 02:33:01,911 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.listingandreviewshierarchy:org.adbms.finalproject.listingandreviewshierarchy:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingandreviewshierarchy/pom.xml.
+2017-12-12 02:33:02,274 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.listingperpropertytype:org.adbms.finalproject.listingperpropertytype:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingperpropertytype/pom.xml.
+2017-12-12 02:33:02,973 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.topthirtylistingswithmaxavailability:org.adbms.finalproject.topthirtylistingswithmaxavailability:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.topthirtylistingswithmaxavailability/pom.xml.
+2017-12-12 02:33:14,833 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:14,841 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:14,879 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:14,879 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/assgn4_part5_distinctpattern/src/test/resources
+2017-12-12 02:33:18,343 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:18,343 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:18,365 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:18,365 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 02:33:23,011 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:23,011 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:23,031 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:23,031 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:33:29,241 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:29,241 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:29,262 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:29,262 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.averagepriceperneighborhood/src/test/resources
+2017-12-12 02:33:33,702 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:33,702 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:33,703 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:33,703 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.cancellationpolicybinning/src/test/resources
+2017-12-12 02:33:37,054 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:37,093 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:37,109 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:37,110 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.joinpattern/src/test/resources
+2017-12-12 02:33:39,369 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:39,370 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:39,402 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:39,403 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingandreviewshierarchy/src/test/resources
+2017-12-12 02:33:43,010 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:43,038 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:44,685 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:44,685 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.listingperpropertytype/src/test/resources
+2017-12-12 02:33:47,670 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:47,670 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:33:47,679 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:33:47,679 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.topthirtylistingswithmaxavailability/src/test/resources
+2017-12-12 02:35:49,701 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:35:49,702 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:35:49,708 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:35:49,708 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:36:10,304 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:36:10,304 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:36:10,305 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:36:10,305 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:43:17,433 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:43:17,438 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:43:17,440 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:43:17,440 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:43:56,986 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:43:56,986 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:43:57,008 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:43:57,017 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:46:01,048 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:46:01,048 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:46:01,049 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:46:01,049 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:47:01,759 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:47:01,760 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:47:01,800 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:47:01,800 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 02:48:49,795 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:48:49,796 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 02:48:49,802 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 02:48:49,802 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:26:46,595 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:26:46,595 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:26:46,603 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:26:46,603 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:27:09,569 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:27:09,570 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:27:09,580 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:27:09,580 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:27:18,779 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:27:18,781 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:27:18,784 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:27:18,784 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:28:12,798 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:28:12,799 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:28:12,829 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:28:12,829 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:29:16,780 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:29:16,780 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:29:16,795 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:29:16,795 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:29:26,615 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:29:26,618 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:29:26,633 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:29:26,634 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:29:37,144 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:29:37,144 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:29:37,158 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:29:37,158 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:30:07,184 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:30:07,184 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:30:07,187 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:30:07,187 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:30:13,387 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:30:13,390 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:30:13,404 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:30:13,404 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:31:53,476 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:31:53,476 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:31:53,476 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:31:53,477 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:32:26,500 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:32:26,522 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:32:26,527 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:32:26,527 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:34:10,639 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:34:10,639 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:34:10,640 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:34:10,640 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:34:26,202 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:34:26,202 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:34:26,203 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:34:26,203 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:34:52,917 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:34:52,917 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:34:52,918 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:34:52,918 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:35:06,898 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings
+2017-12-12 03:35:06,915 [Worker-40] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-12-12 03:35:20,911 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:35:20,918 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 03:35:20,938 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:35:20,938 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:35:55,604 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:35:55,604 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:35:55,620 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:35:55,621 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources

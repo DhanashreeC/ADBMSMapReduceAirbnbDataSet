@@ -1,0 +1,10 @@
+CREATE TABLE listing.listings (id STRING,host_id STRING,host_name STRING,host_since STRING,host_neighbourhood STRING,neighbourhood STRING,property_type STRING,room_type STRING,accommodates INT,bathrooms INT,bedrooms INT,beds INT,bed_type STRING,availability_365 INT,cancellation_policy STRING);
+
+LOAD DATA LOCAL INPATH '/home/dhanashree/info7275/pig_input/listings_analysis.csv' OVERWRITE INTO TABLE listing.listings;
+
+SELECT room_type, count(*) FROM listings GROUP BY room_type;
+
+SELECT * FROM listing.listings WHERE accommodates > 10;
+
+SELECT * FROM listings WHERE cancellation_policy='flexible';
+

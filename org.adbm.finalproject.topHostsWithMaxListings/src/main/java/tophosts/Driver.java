@@ -4,6 +4,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
@@ -37,9 +38,9 @@ public class Driver {
 
 		// Specify key / value
 		job.setMapOutputKeyClass(Text.class);
-		job.setMapOutputValueClass(FloatWritable.class);
+		job.setMapOutputValueClass(IntWritable.class);
 		job.setOutputKeyClass(Text.class);
-		job.setOutputValueClass(FloatWritable.class);
+		job.setOutputValueClass(IntWritable.class);
 
 		// Input
 		FileInputFormat.addInputPath(job, inputPath);
@@ -67,17 +68,21 @@ public class Driver {
 			job2.setReducerClass(TophostWithMostListingsReducer2.class);
 
 			// Specify key / value
+			job2.setMapOutputKeyClass(TopHostCustomWritable.class);
+			job2.setMapOutputValueClass(IntWritable.class);
 			job2.setOutputKeyClass(TopHostCustomWritable.class);
 			job2.setOutputValueClass(NullWritable.class);
 			// Input
 			FileInputFormat.addInputPath(job2, output_intermediate);
+			job2.setInputFormatClass(TextInputFormat.class);
 			FileOutputFormat.setOutputPath(job2, output_dir);
-			System.exit(job2.waitForCompletion(true) ? 0 : 1);
+			//System.exit(job2.waitForCompletion(true) ? 0 : 1);
+			int code = job2.waitForCompletion(true) ? 0 : 1;
+			System.exit(code);
 		}
 		// Delete output if exists
 
 		// Execute job
-		int code = job.waitForCompletion(true) ? 0 : 1;
-		System.exit(code);
+		
 	}
 }

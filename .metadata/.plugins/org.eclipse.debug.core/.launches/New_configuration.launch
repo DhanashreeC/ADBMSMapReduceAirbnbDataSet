@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/org.adbms.finalproject.joinpattern/src/main/java/org/adbms/finalproject/joinpattern/Driver.java"/>
+<listEntry value="/org.adbm.finalproject.topHostsWithMaxListings/src/main/java/tophosts/Driver.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
-<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.adbms.finalproject.joinpattern.Driver"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="listings calendar output"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.adbms.finalproject.joinpattern"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="tophosts.Driver"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="input output1 output"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.adbm.finalproject.topHostsWithMaxListings"/>
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>

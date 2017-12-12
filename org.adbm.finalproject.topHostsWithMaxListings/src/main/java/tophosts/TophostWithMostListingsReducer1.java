@@ -2,18 +2,18 @@ package tophosts;
 
 import java.io.IOException;
 
-import org.apache.hadoop.io.FloatWritable;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-public class TophostWithMostListingsReducer1 extends Reducer<Text, FloatWritable, Text, FloatWritable> {
+public class TophostWithMostListingsReducer1 extends Reducer<Text, IntWritable, Text, IntWritable> {
 
-	private FloatWritable total = new FloatWritable();
+	private IntWritable total = new IntWritable();
 
-	public void reduce(Text key, Iterable<FloatWritable> values, Context context)
+	public void reduce(Text key, Iterable<IntWritable> values, Context context)
 			throws IOException, InterruptedException {
-		float sum = 0;
-		for (FloatWritable val : values) {
+		int sum = 0;
+		for (IntWritable val : values) {
 			sum += val.get();
 		}
 		total.set(sum);
