@@ -1831,3 +1831,71 @@ org.eclipse.core.runtime.CoreException: Launch configuration New_configuration r
 2017-12-12 03:35:55,604 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-12-12 03:35:55,620 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-12-12 03:35:55,621 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.topHostsWithMaxListings/src/test/resources
+2017-12-12 03:39:37,997 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:39:37,997 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:39:37,998 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:39:37,998 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:39:52,268 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis
+2017-12-12 03:39:52,277 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-12-12 03:40:00,868 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:40:00,868 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 03:40:00,902 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:40:00,902 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:41:14,791 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:41:14,791 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:41:14,792 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:41:14,792 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:41:29,220 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:41:29,220 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:41:29,232 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:41:29,232 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:41:56,749 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:41:56,749 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:41:56,762 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:41:56,762 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:42:11,227 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:42:11,227 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:42:11,269 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:42:11,269 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:46:47,013 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:46:47,014 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:46:47,025 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:46:47,028 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbm.finalproject.sentimentanalysis/src/test/resources
+2017-12-12 03:48:31,003 [Worker-53] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.reviewsentiment:org.adbms.finalproject.reviewsentiment:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.reviewsentiment/pom.xml.
+2017-12-12 03:48:31,152 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /org.adbms.finalproject.reviewsentiment/src/main/java
+2017-12-12 03:48:31,153 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /org.adbms.finalproject.reviewsentiment/src/main/resources
+2017-12-12 03:48:31,161 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /org.adbms.finalproject.reviewsentiment/src/test/java
+2017-12-12 03:48:31,164 [Worker-53] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /org.adbms.finalproject.reviewsentiment/src/test/resources
+2017-12-12 03:48:32,819 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-12 03:48:32,821 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:48:32,835 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-12-12 03:48:32,837 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:49:11,848 [Worker-56] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.adbms.finalproject.reviewsentiment:org.adbms.finalproject.reviewsentiment:0.0.1-SNAPSHOT @ /home/dhanashree/info7275/ADBMSMapReduceAirbnbDataSet/org.adbms.finalproject.reviewsentiment/pom.xml.
+2017-12-12 03:49:14,314 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:14,314 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:49:14,315 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:14,315 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:49:17,080 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:17,080 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:49:17,095 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:17,097 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:49:28,471 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:28,474 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 03:49:28,480 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:28,480 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:49:46,292 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:46,292 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 03:49:46,306 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:49:46,307 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:50:13,188 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:50:13,188 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-12-12 03:50:13,227 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:50:13,227 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:51:11,243 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:51:11,244 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:51:11,249 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:51:11,249 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:52:06,941 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:52:06,948 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-12-12 03:52:06,953 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-12-12 03:52:06,954 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

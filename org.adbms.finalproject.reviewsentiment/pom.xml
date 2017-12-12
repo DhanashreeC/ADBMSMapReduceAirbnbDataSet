@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.adbm.finalproject.sentimentanalysis</groupId>
-  <artifactId>org.adbm.finalproject.sentimentanalysis</artifactId>
+  <groupId>org.adbms.finalproject.reviewsentiment</groupId>
+  <artifactId>org.adbms.finalproject.reviewsentiment</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>org.adbm.finalproject.sentimentanalysis</name>
+  <name>org.adbms.finalproject.reviewsentiment</name>
   <url>http://maven.apache.org</url>
 
 	<properties>

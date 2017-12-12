@@ -1,4 +1,4 @@
-package org.adbm.finalproject.sentimentanalysis;
+package org.adbms.finalproject.reviewsentiment;
 
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
