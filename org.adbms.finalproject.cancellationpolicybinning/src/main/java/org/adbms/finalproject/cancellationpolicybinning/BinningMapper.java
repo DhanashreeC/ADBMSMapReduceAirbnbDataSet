@@ -10,7 +10,6 @@ public class BinningMapper extends Mapper<Object, Text, Text, NullWritable> {
 	private MultipleOutputs<Text, NullWritable> mos = null;
 
 	protected void setup(Context context) {
-		// Create a new MultipleOutputs using the context object
 		mos = new MultipleOutputs(context);
 	}
 
@@ -20,7 +19,6 @@ public class BinningMapper extends Mapper<Object, Text, Text, NullWritable> {
 		if(cancellationPolicy.equals("cancellation_policy")) {
 			return;
 		}
-
 		if (cancellationPolicy.equalsIgnoreCase("moderate")) {
 			mos.write("bins", value, NullWritable.get(), "moderate");
 		}
