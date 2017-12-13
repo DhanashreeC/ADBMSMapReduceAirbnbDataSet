@@ -80,9 +80,7 @@ public class Driver {
 			int code = job2.waitForCompletion(true) ? 0 : 1;
 			System.exit(code);
 		}
-		// Delete output if exists
-
-		// Execute job
+		
 		
 	}
 }
